@@ -1,0 +1,26 @@
+{
+  "name": "genpark-openrouter-playground-prompt-exporter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Export prompts to standard OpenRouter payload format.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "openrouter",
+    "export"
+  ],
+  "inputs": {
+    "system_prompt": {
+      "type": "string"
+    },
+    "user_prompt": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "api_payload": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
